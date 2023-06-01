@@ -10,7 +10,7 @@ import HRM_Project.GenericUtilities.BaseClass;
 
 public class Sample1{
 	
-	//Welcome
+	//Welcome to Sample program
 	
 	@Test 
 	public void A()
