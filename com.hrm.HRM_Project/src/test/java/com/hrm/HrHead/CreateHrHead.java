@@ -10,7 +10,7 @@ import com.hrm.hrmProjectObjectRepository.DashboardPage;
 import HRM_Project.GenericUtilities.BaseClass;
 import HRM_Project.GenericUtilities.ListenerImplementationClass;
 import HRM_Project.GenericUtilities.RetryAnalyzer;
-// Welcome
+// Welcome to HrHead module
 @Listeners(ListenerImplementationClass.class)
 public class CreateHrHead extends BaseClass{
 			
