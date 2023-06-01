@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Group Execution(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.hrm.HrHead.CreateHrHead">
+        <methods>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+          <include name="config_AM"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="config_BM"/>
+          <include name="createHrheadTest"/>
+        </methods>
+      </class> <!-- com.hrm.HrHead.CreateHrHead -->
+    </classes>
+  </test> <!-- Group Execution(failed) -->
+</suite> <!-- Failed suite [Suite] -->
